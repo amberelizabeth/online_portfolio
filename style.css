@@ -11,12 +11,13 @@ h1{
 h2 {
     color:#444;
     font-variant: small-caps;
-    padding-top: 10px;
+    padding-top: 40px;
 }
+
 #about-me img {
     float: left; 
     margin-right: 25px;
-    width: 220px;
+    max-width: 200px;
 }
 #about-me p {
     text-align: justify;
@@ -80,8 +81,4 @@ h2 {
 
 #user-input div{
     padding-top: 20px;
-}
-
-.emptyspace-above{
-    padding-top: 15px;
 }
