@@ -1,0 +1,87 @@
+body {
+    margin: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color:#333;
+}
+
+h2 {
+    color:#444;
+    font-variant: small-caps;
+    padding-top: 10px;
+}
+#about-me img {
+    float: left; 
+    margin-right: 25px;
+    width: 220px;
+}
+#about-me p {
+    text-align: justify;
+}
+
+.page-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#project-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#project-table th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #094b3a;
+    color: white;
+}
+
+#project-table td, #project-table th{
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+#project-table tr:nth-child(even){
+    background-color: #e4fff3;
+}
+
+#project-table a, #user-input button{
+    background-color: #094b3a;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+#project-table a:hover, #user-input button:hover {
+    background-color: #62919c;
+    color: white;
+  }
+
+#project-table .link-column{
+    text-align: center;
+    padding: 15px;
+}
+
+#user-input div{
+    padding-top: 20px;
+}
+
+.emptyspace-above{
+    padding-top: 15px;
+}
